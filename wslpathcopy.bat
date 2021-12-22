@@ -1,0 +1,1 @@
+bash.exe -c "pwd | clip.exe"

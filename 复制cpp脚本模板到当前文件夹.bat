@@ -1,0 +1,1 @@
+xcopy /s/e "D:\arch\myenv\templateScript\cpp\debug.cpp" %cd%

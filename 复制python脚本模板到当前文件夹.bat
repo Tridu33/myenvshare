@@ -1,0 +1,1 @@
+xcopy /s/e "D:\arch\myenv\templateScript\python\template.py" %cd%

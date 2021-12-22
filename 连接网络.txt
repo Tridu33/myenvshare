@@ -1,0 +1,22 @@
+@echo off & color a & title 自动连接双网络
+
+::name是有线网络账号, psw是密码, 
+set name=zADFLJAD8273
+set psw=12312312
+
+::ssid是要连接的wifi的名词, 前提是已经让系统记住wifi密码了
+set ssid=TP-LINK_123123
+
+echo 连接WIFI
+netsh wlan connect name=%ssid% || (set wifi=no)
+
+echo. & echo. & echo 连接有线网络
+::宽带连接  是已经在系统上新建好一个名字为"宽带连接"的pppoe的网络接口
+rasdial 宽带连接 %name% %psw% || (set pppoe=no)
+
+if defined wifi (
+if defined pppoe (
+echo 双网络连接失败!
+pause
+)
+)

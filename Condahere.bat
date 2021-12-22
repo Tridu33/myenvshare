@@ -1,0 +1,1 @@
+C:\Windows\System32\cmd.exe "/K" D:\Users\tridu33\anaconda3\Scripts\activate.bat D:\Users\tridu33\anaconda3

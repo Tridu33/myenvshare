@@ -1,0 +1,1 @@
+echo "#include <iostream> ?\n using namespace ?\n ?\t?\t int main (int argv,string* args){?\n?\n return 0;?\n}\n" >> cpp_template.cpp

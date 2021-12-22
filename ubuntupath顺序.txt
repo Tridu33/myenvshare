@@ -1,0 +1,1 @@
+配置文件的执行顺序为：/etc/profile→ (~/.bash_profile | ~/.bash_login | ~/.profile)→~/.bashrc →/etc/bashrc → ~/.bash_logout
